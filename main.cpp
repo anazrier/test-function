@@ -32,44 +32,48 @@ int main() {
                             system("cls");
                             cout << "Masukkan sisi: "; cin >> v1;
                             HitungPersegi(v1);
+                            cout << ">> Luas Persegi : " << HitungPersegi(v1) << endl;
                             break;
                         case 2 :
                             system("cls");
                             cout << "Masukkan panjang: "; cin >> v1;
                             cout << "Masukkan lebar: "; cin >> v2;
                             HitungPersegiPanjang(v1, v2);
+                            cout << ">> Luas Persegi Panjang : " << HitungPersegiPanjang(v1, v2) << endl;
                             break;
                         case 3 : 
                             system("cls");
                             cout << "Masukkan alas: "; cin >> v1;
                             cout << "Masukkan tinggi: "; cin >> v2;
                             HitungSegitiga(v1, v2);
+                            cout << ">> Luas Segitiga : " << HitungSegitiga(v1, v2) << endl;
                             break;
                         case 4 :
                             system("cls");
                             cout << "Masukkan alas: "; cin >> v1;
                             cout << "Masukkan tinggi: "; cin >> v2;
                             HitungJajarGenjang(v1, v2);
+                            cout << ">> Luas Jajar Genjang : " << HitungJajarGenjang(v1, v2) << endl;
                             break;
                         case 5 :
                             system("cls");
                             cout << "Masukkan jari-jari: "; cin >> v1;
                             HitungLingkaran(v1); 
-                            cout << ">> Luas Lingkaran: " << hasilLuas << endl;
+                            cout << ">> Luas Lingkaran: " << HitungLingkaran(v1) << endl;
                             break;
                         case 6 :
                             system("cls");
                             cout << "Masukkan diagonal 1: "; cin >> v1;
                             cout << "Masukkan diagonal 2: "; cin >> v2;
                             HitungBelahKetupat(v1, v2);
-                            cout << ">> Luas Belah Ketupat: " << hasilLuas << endl;
+                            cout << ">> Luas Belah Ketupat: " << HitungBelahKetupat(v1, v2) << endl;
                             break;
                         case 7 :
                             system("cls");
                             cout << "Masukkan diagonal 1: "; cin >> v1;
                             cout << "Masukkan diagonal 2: "; cin >> v2;
                             HitungLayangLayang(v1, v2);
-                            cout << ">> Luas Layang-layang: " << hasilLuas << endl;
+                            cout << ">> Luas Layang-layang: " << HitungLayangLayang(v1, v2) << endl;
                             break;
                         case 8 : 
                             system("cls");
@@ -77,7 +81,7 @@ int main() {
                             cout << "Masukkan sisi bawah: "; cin >> v2;
                             cout << "Masukkan tinggi: "; cin >> v3;
                             HitungTrapesium(v1, v2, v3);
-                            cout << ">> Luas Trapesium: " << hasilLuas << endl;
+                            cout << ">> Luas Trapesium: " << HitungTrapesium(v1, v2, v3) << endl;
                             break;
                         default : 
                             cout << "Pilihan Tidak Sesuai!" << endl;
